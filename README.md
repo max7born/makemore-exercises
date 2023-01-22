@@ -3,7 +3,7 @@ Implementation of exercises from Andrej Karpathy's makemore series on building c
 
 ## 1. Building makemore (bigram)
 - [x] Reimplement video
-- [ ] Trigram MLP
+- [x] Trigram MLP
 - [ ] Train, valid, test split
 - [ ] Smoothing / regularization tuning
 - [ ] Replace one-hot vectors

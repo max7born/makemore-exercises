@@ -5,7 +5,7 @@ Implementation of exercises from Andrej Karpathy's makemore series on building c
 - [x] Reimplement video
 - [x] Trigram MLP
 - [x] Train, valid, test split
-- [ ] Smoothing / regularization tuning
+- [x] Smoothing / regularization tuning
 - [ ] Replace one-hot vectors
 - [ ] Use cross_entropy
 - [ ] Individual exercise

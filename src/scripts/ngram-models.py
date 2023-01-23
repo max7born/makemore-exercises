@@ -92,12 +92,13 @@ class NGramMLPModel:
       loss = -P[torch.arange(self.ys.nelement()), self.ys].log().mean() + 0.01*(self.W**2).mean()
       
       ## NN backward pass
-      self.W.grad = None       # set grad to 0
+      for p in self.params:
+        p.grad = None       # set grad to 0
       loss.backward()
       if k%10 == 0:
         print(f'Iter {k}, loss {loss.item()}')
-
-      self.W.data += -lr*self.W.grad
+      for p in self.params:
+        p.data += -lr*p.grad
 
 
   def sample(self, generator: torch.Generator, num_samples: int):

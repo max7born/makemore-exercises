@@ -9,7 +9,7 @@ Implementation of exercises from Andrej Karpathy's makemore series on building c
 - [x] Use cross_entropy
 
 ## 2. MLP
-- [ ] Reimplement video
+- [x] Reimplement video
 
 ## 3. Activations, Gradients, BatchNorm
 - [ ] Reimplement video

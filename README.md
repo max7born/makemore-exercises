@@ -11,11 +11,14 @@ Implementation of exercises from Andrej Karpathy's makemore series on building c
 ## 2. MLP
 - [x] Reimplement video
 
-## 3. Activations, Gradients, BatchNorm
-- [ ] Reimplement video
+## 3. Init & BatchNorm
+- [x] Reimplement video
+- [ ] Zero init
+- [ ] "Fold" BN during inference & verify results
 
 ## 4. Backprop Ninja
 - [ ] Reimplement video
+-> Skipped for now
 
 ## 5. WaveNet (CNN) 
 - [ ] Reimplement video
